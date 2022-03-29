@@ -3,8 +3,7 @@
   background: radial-gradient(#f992b7, #fcbfdb);
   width: 100vw;
   height: 100vh;
-  
-}
+  }
 
 .logo {
   height: 1em;
@@ -15,18 +14,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: 50vw;
+  width: 40vw;
   padding-left: 5vh;
 }
 .container_two {
   display: flex;
   justify-content: space-between;
   align-items: right;
-  width: 30vw;
+  width: 50vw;
  
 }
 .text_one {
-  font-size: 60pt;
+  font-size: 40pt;
   font-family: Arial, Helvetica, sans-serif;
   color: #eaeaea;
   font-weight: bold;
@@ -40,7 +39,7 @@
   
 }
 .button {
-  width: 50%;
+  width: 70%;
   background-color: #d7097a;
   color: #eaeaea;
   height: 6vh;
@@ -54,5 +53,44 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .container_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    padding-left: 5vh;
+  }
+  .container_two {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    width: 100vw;
+   
+  }
+  .text_one {
+    font-size: 30pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eaeaea;
+    font-weight: bold;
+    
+  }
+  .text_two {
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eaeaea;
+    margin-top: 10pt;
+    
+  }
+  .button {
+    width: 70%;
+    background-color: #d7097a;
+    color: #eaeaea;
+    height: 6vh;
+    border-radius: 100px;
+    margin-top: 30pt;
+    font-size: 10pt;
+    border: none;
   }
 }
