@@ -1,6 +1,6 @@
 .main {
   display: flex;
-  background: radial-gradient(#212121,#000000);
+  background: radial-gradient(#f992b7, #fcbfdb);
   width: 100vw;
   height: 100vh;
   
@@ -44,11 +44,10 @@
   background-color: #d7097a;
   color: #eaeaea;
   height: 6vh;
-  border-radius: 50px;
+  border-radius: 100px;
   margin-top: 30pt;
   font-size: 20pt;
   border: none;
-  margin-top: 10vh;
 }
 
 @media (max-width: 600px) {
